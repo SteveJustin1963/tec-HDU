@@ -3,7 +3,7 @@
 tec1 to ATA HDU 
 
 
-# Read-in: what design and code do per web documents
+# Read-in the design and code per web documents
 
 Statement: this is an 8-bit, I/O-mapped ATA/IDE interface for a Z80. It exposes the ATA registers on Z80 ports \$40–\$47 and uses a separate port \$48 to latch the high byte so 16-bit IDE words can be moved over an 8-bit Z80 bus. Transfers are one sector (512 bytes = 256 words) at a time, with polling of ATA status (BSY, DRDY, DRQ, ERR) to pace reads/writes. &#x20;
 
